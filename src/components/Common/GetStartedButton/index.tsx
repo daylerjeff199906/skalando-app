@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import { LinkTo } from './styles';
+import Link from "next/link";
+import { LinkTo } from "./styles";
 
 const GetStartedButton = ({ padding }: { padding: string }) => {
   return (
@@ -9,7 +9,7 @@ const GetStartedButton = ({ padding }: { padding: string }) => {
       }}
       href="/"
     >
-      Get Started
+      Muy pronto
     </LinkTo>
   );
 };
