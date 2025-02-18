@@ -7,9 +7,10 @@ const GetStartedButton = ({ padding }: { padding: string }) => {
       style={{
         padding: padding,
       }}
-      href="/"
+      href="https://wa.me/51966870897"
+      target="_blank"
     >
-      Muy pronto
+      Contáctanos
     </LinkTo>
   );
 };
