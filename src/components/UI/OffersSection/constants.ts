@@ -1,47 +1,64 @@
-import seamless_payments from '../../../../public/images/seamless_payments.png';
-import smart_investing from '../../../../public/images/smart_investing.png';
-import wealth_management from '../../../../public/images/wealth_management.png';
-import financial_planning from '../../../../public/images/financial_planning.png';
-// For desktop
-export const desktopHeaderPhrases = [
-  'Elevate Your Financial',
-  'Journey with RAFT',
+import seamless_payments from "../../../../public/images/seamless_payments.png";
+import smart_investing from "../../../../public/images/smart_investing.png";
+import wealth_management from "../../../../public/images/wealth_management.png";
+import financial_planning from "../../../../public/images/financial_planning.png";
+// Para escritorio
+export const phrases = [
+  "Innovando el futuro de",
+  "las soluciones tecnológicas.",
 ];
-export const desktopParagraphPhrase = [
-  'RAFT offers a world of financial possibilities. From investments to payments,',
-  "we've got you covered. Join us and unlock your potential today.",
+export const paragraphPhrases = [
+  "Impulsa tu negocio con tecnología innovadora.",
+  "Llevamos tu empresa al siguiente nivel.",
 ];
 
-// For mobile
+export const desktopHeaderPhrases = [
+  "Impulsa tu negocio con",
+  "soluciones digitales.",
+];
+
+export const desktopParagraphPhrase = [
+  "Ofrecemos soluciones tecnológicas integrales para optimizar procesos,",
+  "mejorar la productividad y potenciar tu crecimiento.",
+];
+
+// Para móvil
+export const mobilePhrases = [
+  "Innovando el futuro",
+  "de las soluciones tecnológicas",
+];
+export const mobileParagraphPhrases = [
+  "Transformamos tu negocio con tecnología.",
+  "Innovación a tu alcance.",
+];
+
 export const mobileParagraphPhrase = [
-  'RAFT offers a world of financial possibilities. From',
-  "investments to payments, we've got you covered.",
-  'Join us and unlock your potential today.',
+  "Soluciones digitales para optimizar y",
+  "hacer crecer tu empresa con tecnología.",
 ];
 
 export const offers = [
   {
     illustration: seamless_payments,
-    title: 'Seamless Payments',
+    title: "Automatización de Procesos",
     details:
-      'Enjoy secure, seamless transactions that make managing your money a breeze.',
+      "Optimiza tareas repetitivas para aumentar la eficiencia empresarial.",
   },
   {
     illustration: smart_investing,
-    title: 'Smart Investing',
+    title: "Consultoría Tecnológica",
     details:
-      'Grow your wealth confidently with our personalized investment solutions, tailored to your financial goals.',
+      "Asesoría experta para implementar soluciones digitales efectivas.",
   },
   {
     illustration: wealth_management,
-    title: 'Wealth Management',
+    title: "Marketing Digital",
     details:
-      'Make informed decisions for your financial future with our wealth management expertise.',
+      "Estrategias personalizadas para aumentar tu visibilidad y ventas.",
   },
   {
     illustration: financial_planning,
-    title: 'Financial Planning',
-    details:
-      'Achieve your financial dreams with our comprehensive financial planning services, guiding you toward a secure future.',
+    title: "Desarrollo a Medida",
+    details: "Creación de soluciones tecnológicas adaptadas a tus necesidades.",
   },
 ];

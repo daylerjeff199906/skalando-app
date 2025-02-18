@@ -1,57 +1,55 @@
-import ic_money_send from '../../../../public/svgs/ic_money_send.svg';
-import ic_wallet_minus from '../../../../public/svgs/ic_wallet_minus.svg';
+import ic_money_send from "../../../../public/svgs/ic_money_send.svg";
+import ic_wallet_minus from "../../../../public/svgs/ic_wallet_minus.svg";
 export const cardsInfo = [
   {
-    title: 'Spend Better',
+    title: "Soluciones a Medida",
     details:
-      'Set and achieve financial goals with ease, automate your savings, and watch your money grow without the stress.',
+      "Desarrollamos soluciones tecnológicas personalizadas que se adaptan a las necesidades específicas de tu negocio, optimizando tus procesos.",
     icon: ic_money_send,
   },
   {
-    title: 'Invest Better',
+    title: "Asesoría Estratégica",
     details:
-      'Set and achieve financial goals with ease, automate your savings, and watch your money grow without the stress.',
+      "Brindamos asesoría experta para guiar a tu empresa en la toma de decisiones clave y aprovechar al máximo las oportunidades tecnológicas.",
     icon: ic_wallet_minus,
   },
 ];
 
 export const stats = [
   {
-    number: '50+',
-    subtitle: 'cities',
+    number: "50+",
+    subtitle: "proyectos exitosos",
   },
   {
-    number: '50,000+',
-    subtitle: 'transactions',
+    number: "100,000+",
+    subtitle: "horas de consultoría",
   },
   {
-    number: '3M+',
-    subtitle: 'users',
+    number: "500+",
+    subtitle: "empresas satisfechas",
   },
   {
-    number: '5+',
-    subtitle: 'user ratings',
+    number: "10+",
+    subtitle: "años de experiencia",
   },
 ];
 
-// For desktop
+// Para escritorio
 export const desktopHeaderPhrase = [
-  'Confidently Shape Your',
-  'Financial Future',
+  "Impulsa Tu Negocio con",
+  "Tecnología e Innovación",
 ];
 export const desktopParagraphPhrase = [
-  'At RAFT, we empower you to confidently shape your financial future. Our modern',
-  'approach simplifies saving and investing, making it easier than ever.',
+  "En nuestra empresa, te ayudamos a transformar tu negocio mediante soluciones tecnológicas a medida y consultoría estratégica.",
+  "Optimiza tu proceso de toma de decisiones y crece con la tecnología más avanzada.",
 ];
 
-// For mobile
+// Para móvil
 export const mobileHeaderPhrase = [
-  'Confidently Shape',
-  ' Your Financial Future',
+  "Impulsa Tu Negocio con",
+  "Tecnología e Innovación",
 ];
 export const mobileParagraphPhrase = [
-  'At RAFT, we empower you to confidently shape',
-  'your financial future. Our modern approach',
-  'simplifies saving and investing, making it easier',
-  'than ever.',
+  "Te ayudamos a transformar tu negocio con soluciones tecnológicas a medida.",
+  "Optimiza tu empresa y toma decisiones clave con la ayuda de la mejor asesoría estratégica.",
 ];

@@ -1,41 +1,44 @@
-import ic_document_duplicate from '../../../../public/svgs/ic_document_duplicate.svg';
-import ic_identification from '../../../../public/svgs/ic_identification.svg';
-import ic_lock_closed from '../../../../public/svgs/ic_lock_closed.svg';
+import ic_document_duplicate from "../../../../public/svgs/ic_document_duplicate.svg";
+import ic_identification from "../../../../public/svgs/ic_identification.svg";
+import ic_lock_closed from "../../../../public/svgs/ic_lock_closed.svg";
 
-// For desktop
-export const desktopHeaderPhrase = ["Introducing RAFT's Next-", 'Gen Cards'];
+// Para escritorio
+export const desktopHeaderPhrase = [
+  "Presentamos la Nueva",
+  "Generación de Soluciones",
+];
 export const desktopParagraphPhrase = [
-  " Discover RAFT's latest innovation – our new cards. Elevate your banking",
-  'experience with cutting-edge features, security, and unprecedented',
-  'convenience.',
+  "Descubre nuestra última innovación: soluciones tecnológicas de vanguardia para transformar tu negocio.",
+  "Optimiza tus procesos con características avanzadas, seguridad y comodidad sin precedentes.",
 ];
 
-// For mobile
-export const mobileHeaderPhrase = ["Introducing RAFT's", 'Next-Gen Cards'];
+// Para móvil
+export const mobileHeaderPhrase = [
+  "Presentamos la",
+  "Nueva Generación de Soluciones",
+];
 export const mobileParagraphPhrase = [
-  " Discover RAFT's latest innovation – our new cards.",
-  ' Elevate your banking experience with cutting-edge',
-  'features, security, and unprecedented',
-  'convenience.',
+  "Descubre nuestra última innovación: soluciones tecnológicas personalizadas para tu negocio.",
+  "Eleva la experiencia de tu empresa con características avanzadas, seguridad y facilidad.",
 ];
 
 export const edges = [
   {
-    point: 'Contactless Technology',
+    point: "Tecnología Avanzada",
     details:
-      'Our new cards come equipped with contactless technology, allowing you to make swift, secure payments with a simple tap.',
+      "Nuestras soluciones tecnológicas están equipadas con lo último en innovación, permitiéndote optimizar tu negocio con la mejor tecnología disponible.",
     icon: ic_document_duplicate,
   },
   {
-    point: 'Personalization',
+    point: "Personalización",
     details:
-      'Customize your card to reflect your unique style. Choose from a range of designs that suit your personality.',
+      "Adaptamos nuestras soluciones a las necesidades específicas de tu empresa. Personaliza tus herramientas tecnológicas para que se alineen perfectamente con tus objetivos.",
     icon: ic_identification,
   },
   {
-    point: 'Enhanced Security',
+    point: "Seguridad Mejorada",
     details:
-      'Your peace of mind is our priority. Our cards feature advanced security measures to protect your transactions and data.',
+      "Tu tranquilidad es nuestra prioridad. Nuestras soluciones incluyen medidas avanzadas de seguridad para proteger tus datos y transacciones.",
     icon: ic_lock_closed,
   },
 ];

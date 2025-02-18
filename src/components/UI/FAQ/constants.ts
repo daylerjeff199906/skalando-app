@@ -3,15 +3,15 @@ type FAQItem = {
   answer: string;
 };
 
-export const desktopHeaderPhrase = ['Frequently asked', 'questions'];
-export const mobileHeaderPhrase = ['Frequently', 'asked', 'questions'];
+export const desktopHeaderPhrase = ["Frequently asked", "questions"];
+export const mobileHeaderPhrase = ["Frequently", "asked", "questions"];
 export const animate = {
   initial: {
-    y: '100%',
+    y: "100%",
     opacity: 0,
   },
   open: (i: number) => ({
-    y: '0%',
+    y: "0%",
     opacity: 1,
     transition: { duration: 1, delay: 0.1 * i, ease: [0.33, 1, 0.68, 1] },
   }),
@@ -19,23 +19,24 @@ export const animate = {
 
 export const faqData: FAQItem[] = [
   {
-    question: 'How do I create an account with RAFT?',
+    question: "¿Cómo puedo contratar los servicios de soluciones tecnológicas?",
     answer:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      "Simplemente contáctanos para agendar una consulta. Evaluaremos las necesidades de tu negocio y te ofreceremos las soluciones que mejor se adapten.",
   },
   {
-    question: 'How does RAFT ensure the security of my financial data?',
+    question: "¿Cómo garantizas la seguridad de mis datos empresariales?",
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      "Implementamos las últimas medidas de seguridad, incluyendo cifrado de datos y acceso controlado, para asegurar que toda la información de tu negocio esté protegida.",
   },
   {
-    question: 'What types of transactions can I perform with RAFT?',
+    question:
+      "¿Qué tipo de soluciones tecnológicas puedo implementar en mi empresa?",
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      "Ofrecemos soluciones a medida que incluyen automatización de procesos, desarrollo de software personalizado, integración de sistemas, y mucho más.",
   },
   {
-    question: 'What benefits does RAFT offer for wealth management?',
+    question: "¿Qué beneficios trae la asesoría estratégica para mi negocio?",
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      "Nuestra asesoría estratégica te permite tomar decisiones informadas, optimizar recursos, y aprovechar las mejores oportunidades tecnológicas para el crecimiento de tu empresa.",
   },
 ];

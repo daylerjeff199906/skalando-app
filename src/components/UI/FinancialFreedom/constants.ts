@@ -1,56 +1,61 @@
+import ic_banknotes from "../../../../public/svgs/ic_banknotes.svg";
+import ic_circle_stack from "../../../../public/svgs/ic_circle_stack.svg";
+import ic_arrows_left_right from "../../../../public/svgs/ic_arrows_right_left.svg";
 
-import ic_banknotes from '../../../../public/svgs/ic_banknotes.svg';
-import ic_circle_stack from '../../../../public/svgs/ic_circle_stack.svg';
-import ic_arrows_left_right from '../../../../public/svgs/ic_arrows_right_left.svg';
-
-// For desktop
-export const desktopHeaderPhrase = ['Your Financial Freedom,', 'Your Way'];
+// Para escritorio
+// Para escritorio
+export const desktopHeaderPhrase = [
+  "Transforma Tu Negocio,",
+  "Con Tecnología e Innovación",
+];
 export const desktopParagraphPhrase = [
-  'We believe that managing your finances should be effortless and cost-effective.',
-  "That's why we offer you the freedom you deserve.",
+  "Creemos que la tecnología debe ser el motor de tu empresa.",
+  "Por eso te ofrecemos soluciones inteligentes y asesoría experta para que logres tus objetivos.",
 ];
 export const desktopBriefNotePhrase = [
-  'Smart investments,',
-  'secure payments, and',
-  'expert guidance, all in',
-  'one place.',
+  "Soluciones tecnológicas,",
+  "consultoría estratégica, y",
+  "asesoría experta, todo en",
+  "un solo lugar.",
 ];
 
-// For mobile
-export const mobileHeaderPhrase = ['Your Financial', 'Freedom, Your Way'];
+// Para móvil
+export const mobileHeaderPhrase = [
+  "Transforma Tu",
+  "Negocio, Con Tecnología e Innovación",
+];
 export const mobileParagraphPhrase = [
-  'We believe that managing your finances should be',
-  "effortless and cost-effective. That's why we offer",
-  ' you the freedom you deserve.',
+  "Creemos que la tecnología debe ser el motor de tu negocio.",
+  "Por eso te ofrecemos soluciones inteligentes y asesoría experta.",
 ];
 
 export const mobileBriefNotePhrase = [
-  'Smart',
-  ' investments,',
-  'secure',
-  ' payments,',
-  'and expert',
-  'guidance, all',
-  'in one place.',
+  "Soluciones",
+  " tecnológicas,",
+  "consultoría",
+  " estratégica,",
+  "y asesoría",
+  "experta, todo",
+  "en un solo lugar.",
 ];
 
 export const edges = [
   {
-    point: 'No minimum balance fees',
+    point: "Soluciones a medida",
     details:
-      'Say goodbye to minimum balance fees. Your account, your balance—no hidden charges',
+      "Ofrecemos soluciones tecnológicas personalizadas para tu empresa, ajustadas a tus necesidades específicas.",
     icon: ic_banknotes,
   },
   {
-    point: 'No monthly fees',
+    point: "Consultoría estratégica",
     details:
-      'Bank with us without worrying about monthly fees. Keep more of your money where it belongs—in your account',
+      "Te ayudamos a optimizar tu negocio con estrategias basadas en datos y la innovación.",
     icon: ic_circle_stack,
   },
   {
-    point: 'No bank transfer fees',
+    point: "Asesoría experta",
     details:
-      'Seamlessly transfer funds without the extra cost. Send and receive money with zero bank transfer fees.',
+      "Te brindamos el acompañamiento necesario para implementar las mejores soluciones tecnológicas.",
     icon: ic_arrows_left_right,
   },
 ];

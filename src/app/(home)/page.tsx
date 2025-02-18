@@ -18,7 +18,7 @@ export default function Home() {
       <FinancilaFreedom />
       <FinancialFuture />
       <IntroSection />
-      <JoinSection />
+      {/* <JoinSection /> */}
       <FAQ />
     </main>
   );
